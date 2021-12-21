@@ -36,7 +36,7 @@ function Messages() {
       <div className="space-y-10 p-4">
         {/* Each Message */}
         {data.map((message) => (
-          <Message key={id} message={message} />
+          <Message key={message.id} message={message} />
         ))}
       </div>
 
